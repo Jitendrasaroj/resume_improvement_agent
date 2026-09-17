@@ -23,14 +23,7 @@ from langchain_core.tools import tool
 from langchain_openai import ChatOpenAI
 
 
-# ----------------------------------------------------------------------
-# Setup
-# ----------------------------------------------------------------------
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s"
-)
+logging.basicConfig(level=logging.INFO,format="%(asctime)s [%(levelname)s] %(message)s")
 
 logger = logging.getLogger("resume_improvement_agent")
 
